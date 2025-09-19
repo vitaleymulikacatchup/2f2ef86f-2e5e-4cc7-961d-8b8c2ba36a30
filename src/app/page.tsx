@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: "funAndTrendy", colorTemplate: 2, textAnimation: "slide" }}>
       <div id="nav" data-section="nav">
-        <NavbarStyleMinimal logoSrc="/images/logo.svg" logoAlt="BrainRot Logo" buttonText="Join Brainrot" className="bg-background text-white sticky" />
+        <NavbarStyleMinimal logoSrc="/images/logo.svg" logoAlt="BrainRot Logo" buttonText="Get Started" className="bg-background text-white sticky" />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <BillboardHero title="Welcome to BrainRot" subtitle="Unleash the power of crypto gurus!" />
