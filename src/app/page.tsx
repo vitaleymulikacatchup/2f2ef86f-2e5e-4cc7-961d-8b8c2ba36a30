@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: "funAndTrendy", colorTemplate: 2, textAnimation: "slide" }}>
       <div id="nav" data-section="nav">
-        <NavbarStyleMinimal logoSrc="/images/logo.svg" logoAlt="BrainRot Logo" buttonText="Get Started" className="bg-background text-white sticky" />
+        <NavbarStyleMinimal logoSrc="/images/logo.svg" buttonText="Get Started" className="bg-background text-white sticky" />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <BillboardHero title="Welcome to BrainRot" subtitle="Unleash the power of crypto gurus!" />
@@ -30,7 +30,7 @@ export default function Home() {
         <NumberGridTokenomics title="Tokenomics" description="Understand our token metrics and allocations." kpiItems={[{ value: "100M", description: "Total Supply" }, { value: "50M", description: "Circulating Supply" }, { value: "30M", description: "Burned Tokens" }]} />
       </div>
       <div id="footer" data-section="footer" className="scroll-mt-24">
-        <FooterLogoEmphasisBackgroundGradient logoSrc="/images/logo.svg" logoAlt="Brand Logo" logoText="BrainRot" items={[{ label: "Privacy Policy", onClick: () => {} }, { label: "Terms of Service", onClick: () => {} }]} className="bg-background text-white" />
+        <FooterLogoEmphasisBackgroundGradient logoSrc="/images/logo.svg" logoText="BrainRot" items={[{ label: "Privacy Policy", onClick: () => {} }, { label: "Terms of Service", onClick: () => {} }]} className="bg-background text-white" />
       </div>
     </SiteThemeProvider>
   );
